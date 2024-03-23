@@ -1,0 +1,29 @@
+body{
+    background-color: lightcyan;
+}
+
+/*********************************************** TAG SELECTORS ***************************************************/
+h1{ color: aquamarine;
+      font-size: 100px;
+    }
+ 
+                  /* this ":hover" elements change the background of images when we touch the images */
+    img:hover{         
+         background-color: gold; 
+        
+    }
+
+/********************************************* CLASS SELECTORS **************************************************/
+
+    .bacon{ background-color:plum; }
+
+    .broccoli{ background-color: chartreuse; }
+  
+    .heart{ background-color: cornflowerblue;}
+
+    .circular{ border-radius: 20px;}
+    .hexagonal{ border-radius: 100%;}
+
+/********************************************* ID SELECTORS ***************************************************/
+    #heading{ color: green; }
+
